@@ -559,3 +559,430 @@ video {
 html {
   font-family: "Poppins", serif;
 }
+
+.container{
+  width: 100%;
+}
+
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+}
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.right-1\/2{
+  right: 50%;
+}
+
+.-top-1\/2{
+  top: -50%;
+}
+
+.-top-8{
+  top: -2rem;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mt-\[88px\]{
+  margin-top: 88px;
+}
+
+.mb-\[63\.5px\]{
+  margin-bottom: 63.5px;
+}
+
+.flex{
+  display: flex;
+}
+
+.size-24{
+  width: 6rem;
+  height: 6rem;
+}
+
+.size-16{
+  width: 4rem;
+  height: 4rem;
+}
+
+.h-\[1px\]{
+  height: 1px;
+}
+
+.h-\[54px\]{
+  height: 54px;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.w-6{
+  width: 1.5rem;
+}
+
+.w-\[87\.7px\]{
+  width: 87.7px;
+}
+
+.max-w-\[840px\]{
+  max-width: 840px;
+}
+
+.max-w-\[55\.7px\]{
+  max-width: 55.7px;
+}
+
+.max-w-\[87\.7px\]{
+  max-width: 87.7px;
+}
+
+.translate-x-1\/2{
+  --tw-translate-x: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.gap-1{
+  gap: 0.25rem;
+}
+
+.rounded-3xl{
+  border-radius: 1.5rem;
+}
+
+.rounded-full{
+  border-radius: 9999px;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
+.rounded-bl-\[100px\]{
+  border-bottom-left-radius: 100px;
+}
+
+.rounded-br-\[100px\]{
+  border-bottom-right-radius: 100px;
+}
+
+.border{
+  border-width: 1px;
+}
+
+.border-light-grey{
+  --tw-border-opacity: 1;
+  border-color: hsl(0 0% 86% / var(--tw-border-opacity, 1));
+}
+
+.bg-light-grey{
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 86% / var(--tw-bg-opacity, 1));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-purple{
+  --tw-bg-opacity: 1;
+  background-color: hsl(259 100% 65% / var(--tw-bg-opacity, 1));
+}
+
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.text-\[56px\]{
+  font-size: 56px;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-extrabold{
+  font-weight: 800;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.leading-\[110\%\]{
+  line-height: 110%;
+}
+
+.leading-none{
+  line-height: 1;
+}
+
+.tracking-\[-1\.12px\]{
+  letter-spacing: -1.12px;
+}
+
+.tracking-\[3px\]{
+  letter-spacing: 3px;
+}
+
+.tracking-\[0\.2px\]{
+  letter-spacing: 0.2px;
+}
+
+.text-purple{
+  --tw-text-opacity: 1;
+  color: hsl(259 100% 65% / var(--tw-text-opacity, 1));
+}
+
+.text-off-black{
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 8% / var(--tw-text-opacity, 1));
+}
+
+.text-light-grey{
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 86% / var(--tw-text-opacity, 1));
+}
+
+.text-smokey-grey{
+  --tw-text-opacity: 1;
+  color: hsl(0 1% 44% / var(--tw-text-opacity, 1));
+}
+
+.text-light-red{
+  --tw-text-opacity: 1;
+  color: hsl(0 100% 67% / var(--tw-text-opacity, 1));
+}
+
+.outline-none{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.transition-colors{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.placeholder\:opacity-50::-moz-placeholder{
+  opacity: 0.5;
+}
+
+.placeholder\:opacity-50::placeholder{
+  opacity: 0.5;
+}
+
+.hover\:bg-off-black:hover{
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 8% / var(--tw-bg-opacity, 1));
+}
+
+.focus\:border-purple:focus{
+  --tw-border-opacity: 1;
+  border-color: hsl(259 100% 65% / var(--tw-border-opacity, 1));
+}
+
+@media (min-width: 1024px){
+  .lg\:right-0{
+    right: 0px;
+  }
+
+  .lg\:-top-12{
+    top: -3rem;
+  }
+
+  .lg\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .lg\:mt-\[171px\]{
+    margin-top: 171px;
+  }
+
+  .lg\:mb-\[47\.5px\]{
+    margin-bottom: 47.5px;
+  }
+
+  .lg\:size-24{
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .lg\:h-\[72px\]{
+    height: 72px;
+  }
+
+  .lg\:w-11{
+    width: 2.75rem;
+  }
+
+  .lg\:w-\[46px\]{
+    width: 46px;
+  }
+
+  .lg\:w-\[160px\]{
+    width: 160px;
+  }
+
+  .lg\:max-w-28{
+    max-width: 7rem;
+  }
+
+  .lg\:translate-x-0{
+    --tw-translate-x: 0px;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:justify-start{
+    justify-content: flex-start;
+  }
+
+  .lg\:gap-8{
+    gap: 2rem;
+  }
+
+  .lg\:gap-2{
+    gap: 0.5rem;
+  }
+
+  .lg\:rounded-br-\[200px\]{
+    border-bottom-right-radius: 200px;
+  }
+
+  .lg\:p-14{
+    padding: 3.5rem;
+  }
+
+  .lg\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .lg\:text-\[104px\]{
+    font-size: 104px;
+  }
+
+  .lg\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .lg\:text-\[32px\]{
+    font-size: 32px;
+  }
+
+  .lg\:leading-none{
+    line-height: 1;
+  }
+
+  .lg\:tracking-\[-2\.08px\]{
+    letter-spacing: -2.08px;
+  }
+
+  .lg\:tracking-\[3\.5px\]{
+    letter-spacing: 3.5px;
+  }
+
+  .lg\:tracking-\[0\.32px\]{
+    letter-spacing: 0.32px;
+  }
+}
