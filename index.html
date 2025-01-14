@@ -21,71 +21,66 @@
         class="mx-4 mt-[88px] rounded-3xl rounded-br-[100px] bg-white px-6 py-12 lg:mx-0 lg:mt-[171px] lg:rounded-br-[200px] lg:p-14"
       >
         <form id="form" class="mb-[63.5px] lg:mb-[47.5px]">
-          <div
-            class="mb-[63.5px] flex items-center gap-4 lg:mb-[47.5px] lg:gap-8"
-          >
+          <div class="mb-[63.5px] flex gap-4 lg:mb-[47.5px] lg:gap-8">
             <div class="flex flex-col gap-1 lg:gap-2">
               <label
                 for="day"
-                class="text-smokey-grey text-sm font-bold leading-none tracking-[3px] lg:text-sm lg:leading-none lg:tracking-[3.5px]"
+                class="text-sm font-bold leading-none tracking-[3px] text-smokey-grey lg:text-sm lg:leading-none lg:tracking-[3.5px]"
                 >DAY</label
               >
               <input
                 type="text"
                 id="day"
                 maxlength="2"
-                class="text-off-black border-light-grey focus:border-purple h-[54px] w-[87.7px] rounded-lg border px-4 py-3 text-xl font-bold leading-none tracking-[0.2px] outline-none lg:h-[72px] lg:w-[160px] lg:px-6 lg:text-[32px] lg:tracking-[0.32px]"
+                class="inputs h-[54px] w-[87.7px] rounded-lg border px-4 py-3 text-xl font-bold leading-none tracking-[0.2px] text-off-black outline-none lg:h-[72px] lg:w-[160px] lg:px-6 lg:text-[32px] lg:tracking-[0.32px]"
+                style="border-color: hsl(0, 0%, 86%)"
                 placeholder="DD"
               />
               <p
-                class="error-text text-light-red text-xs italic leading-none lg:text-sm lg:leading-none"
-              >
-                This field is required
-              </p>
+                class="text-xs italic leading-none text-light-red lg:text-sm lg:leading-none"
+              ></p>
             </div>
             <div class="flex flex-col gap-1 lg:gap-2">
               <label
                 for="month"
-                class="text-smokey-grey text-sm font-bold leading-none tracking-[3px] lg:text-sm lg:leading-none lg:tracking-[3.5px]"
+                class="text-sm font-bold leading-none tracking-[3px] text-smokey-grey lg:text-sm lg:leading-none lg:tracking-[3.5px]"
                 >MONTH</label
               >
               <input
                 type="text"
                 id="month"
                 maxlength="2"
-                class="text-off-black border-light-grey focus:border-purple h-[54px] w-[87.7px] rounded-lg border px-4 py-3 text-xl font-bold leading-none tracking-[0.2px] outline-none lg:h-[72px] lg:w-[160px] lg:px-6 lg:text-[32px] lg:tracking-[0.32px]"
+                class="inputs h-[54px] w-[87.7px] rounded-lg border px-4 py-3 text-xl font-bold leading-none tracking-[0.2px] text-off-black outline-none lg:h-[72px] lg:w-[160px] lg:px-6 lg:text-[32px] lg:tracking-[0.32px]"
+                style="border-color: hsl(0, 0%, 86%)"
                 placeholder="MM"
               />
               <p
-                class="error-text text-light-red text-xs italic leading-none lg:text-sm lg:leading-none"
-              >
-                This field is required
-              </p>
+                class="text-xs italic leading-none text-light-red lg:text-sm lg:leading-none"
+              ></p>
             </div>
             <div class="flex flex-col gap-1 lg:gap-2">
               <label
                 for="year"
-                class="text-smokey-grey text-sm font-bold leading-none tracking-[3px] lg:text-sm lg:leading-none lg:tracking-[3.5px]"
+                class="text-sm font-bold leading-none tracking-[3px] text-smokey-grey lg:text-sm lg:leading-none lg:tracking-[3.5px]"
                 >YEAR</label
               >
               <input
                 type="text"
                 id="year"
                 maxlength="4"
-                class="text-off-black border-light-grey focus:border-purple h-[54px] w-[87.7px] rounded-lg border px-4 py-3 text-xl font-bold leading-none tracking-[0.2px] outline-none lg:h-[72px] lg:w-[160px] lg:px-6 lg:text-[32px] lg:tracking-[0.32px]"
+                class="inputs h-[54px] w-[87.7px] rounded-lg border px-4 py-3 text-xl font-bold leading-none tracking-[0.2px] text-off-black outline-none lg:h-[72px] lg:w-[160px] lg:px-6 lg:text-[32px] lg:tracking-[0.32px]"
+                style="border-color: hsl(0, 0%, 86%)"
                 placeholder="YYYY"
               />
               <p
-                class="error-text text-light-red text-xs italic leading-none lg:text-sm lg:leading-none"
-              >
-                This field is required
-              </p>
+                class="text-xs italic leading-none text-light-red lg:text-sm lg:leading-none"
+              ></p>
             </div>
           </div>
 
-          <div class="bg-light-grey relative h-[1px] w-full">
+          <div class="relative h-[1px] w-full bg-light-grey">
             <button
-              class="bg-purple hover:bg-off-black absolute -top-8 right-1/2 flex size-16 translate-x-1/2 items-center justify-center rounded-full transition-colors lg:-top-12 lg:right-0 lg:size-24 lg:translate-x-0"
+              class="absolute -top-8 right-1/2 flex size-16 translate-x-1/2 items-center justify-center rounded-full bg-purple transition-colors hover:bg-off-black lg:-top-12 lg:right-0 lg:size-24 lg:translate-x-0"
               type="submit"
             >
               <img
@@ -101,9 +96,9 @@
           class="flex flex-col text-[56px] font-extrabold italic leading-[110%] tracking-[-1.12px] lg:text-[104px] lg:tracking-[-2.08px]"
           id="age"
         >
-          <li><span class="text-purple">- -</span>&nbsp;years</li>
-          <li><span class="text-purple">- -</span>&nbsp;months</li>
-          <li><span class="text-purple">- -</span>&nbsp;days</li>
+          <li><span class="text-purple" id="years">- -</span>&nbsp;years</li>
+          <li><span class="text-purple" id="months">- -</span>&nbsp;months</li>
+          <li><span class="text-purple" id="days">- -</span>&nbsp;days</li>
         </ul>
       </div>
       <!-- box -->
