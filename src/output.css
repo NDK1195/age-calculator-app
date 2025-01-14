@@ -645,6 +645,10 @@ html {
   height: 54px;
 }
 
+.min-h-dvh{
+  min-height: 100dvh;
+}
+
 .w-6{
   width: 1.5rem;
 }
@@ -709,6 +713,11 @@ html {
 .bg-light-grey{
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 86% / var(--tw-bg-opacity, 1));
+}
+
+.bg-off-white{
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 94% / var(--tw-bg-opacity, 1));
 }
 
 .bg-purple{
